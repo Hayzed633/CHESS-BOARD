@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+body{
+    background: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.outer{
+    background: white;
+    width: 700px;
+    height: 700px;
+    display: flex;
+    padding: 2px;
+    border: 2px solid white;
+}
+.box{
+    width: 87px;
+    height: 87px;
+}
+.white{
+    background-color: white;
+    font-size: 40px;
+    text-align: center;
+}
+.black{
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
